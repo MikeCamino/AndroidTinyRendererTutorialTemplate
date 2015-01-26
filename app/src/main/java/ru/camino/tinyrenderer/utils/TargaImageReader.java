@@ -10,6 +10,10 @@ import android.graphics.Paint;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 
+/**
+ * Reads RLE-compressed Targa image from assets into Android {@link android.graphics.Bitmap}<br/>
+ * Refer to <a href="http://ponystyle.com/blog/2010/03/26/dealing-with-asset-compression-in-android-apps/">this hint</a> to find out how to cheat Android to read "unknown" asset files
+ */
 public class TargaImageReader {
     public static Bitmap getImage(Context context, String fileName) throws IOException {
         final AssetFileDescriptor afd = context.getAssets().openFd(fileName);
