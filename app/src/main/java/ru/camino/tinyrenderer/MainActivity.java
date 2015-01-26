@@ -1,4 +1,4 @@
-package camino.ru.tinyrenderer;
+package ru.camino.tinyrenderer;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
 
-import camino.ru.tinyrenderer.utils.TargaImageReader;
+import ru.camino.tinyrenderer.utils.TargaImageReader;
+import ru.camino.tinyrenderer.R;
 
 public class MainActivity extends Activity {
     public static final String TAG = MainActivity.class.getSimpleName();

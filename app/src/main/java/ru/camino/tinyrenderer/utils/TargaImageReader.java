@@ -1,4 +1,4 @@
-package camino.ru.tinyrenderer.utils;
+package ru.camino.tinyrenderer.utils;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
